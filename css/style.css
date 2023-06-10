@@ -76,3 +76,11 @@ main > ul {
   list-style-position: inside;
   line-height: 180%;
 }
+
+@media (max-width: 670px) {
+  .recipe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
