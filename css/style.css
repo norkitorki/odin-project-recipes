@@ -52,3 +52,27 @@ main > ul {
   font-size: 0.8rem;
 }
 
+/* Recipe specific rules */
+
+.recipe-container { padding: 1.5rem; }
+
+.recipe-container > img { float: left; }
+
+.recipe-details {
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.recipe-container ul { list-style: disc; }
+
+.recipe-container ol { list-style: decimal; }
+
+.recipe-container { text-align: left; }
+
+.recipe-container ul > li,
+.recipe-container ol > li {
+  list-style-position: inside;
+  line-height: 180%;
+}
